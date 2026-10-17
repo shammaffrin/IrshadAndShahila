@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from "react";
-import "./Sparkles.css";
+import "./sparkles.css";
 
 export default function Sparkles() {
   const [particles, setParticles] = useState([]);
