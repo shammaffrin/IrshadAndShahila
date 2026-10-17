@@ -1,7 +1,7 @@
 import { useCallback, useState } from "react";
 
 import LoadingScreen from "./components/LoadingScreen";
-import Sparkles from "./components/Sparkles";
+// import Sparkles from "./components/Sparkles";
 import MusicPlayer from "./components/music";
 import InvitationCover from "./components/InvitationCover";
 import Invitation from "./components/Invitation";
