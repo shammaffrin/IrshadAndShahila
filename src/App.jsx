@@ -1,7 +1,7 @@
 import { useCallback, useState } from "react";
 
 import LoadingScreen from "./components/LoadingScreen";
-// import Sparkles from "./components/Sparkles";
+//import Sparkles from "./components/Sparkles";
 import MusicPlayer from "./components/music";
 import InvitationCover from "./components/InvitationCover";
 import Invitation from "./components/Invitation";
@@ -37,7 +37,7 @@ export default function App() {
       <LoadingScreen onComplete={finishLoading} />
     ) : (
       <>
-        <Sparkles />
+        
   <InvitationCover onOpen={openInvitation} />
   <MusicPlayer shouldPlay={true} />
 
